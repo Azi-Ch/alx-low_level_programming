@@ -2,16 +2,16 @@
 
 /**
  * main - entry point
- * print all numbers of base 16 in lowercase
+ * print all possible combinations of single-digit numbers
  *
- * Return: Always 0 (Succes)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	char c = '0';
+	int c = '0';
 
-	while (c < '9')
+	while (c <= '9')
 	{
 		putchar(c);
 		if (c < '9')
