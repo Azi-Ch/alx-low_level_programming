@@ -2,7 +2,7 @@
 
 /**
  * main - entry point
- * print the alphabet in lowercase a-z
+ * print the alphabet in lowercase a-z, and then in uppercase A-Z
  *
  * Return: Always 0 (Success)
  */
@@ -16,15 +16,12 @@ int main(void)
 		putchar(c);
 		c++;
 	}
-
 	c = 'A';
-	
 	while (c <= 'Z')
 	{
-	        putchar(c);
-                c++;
+		putchar(c);
+		c++;
 	}
 	putchar('\n');
-	
 	return (0);
 }
