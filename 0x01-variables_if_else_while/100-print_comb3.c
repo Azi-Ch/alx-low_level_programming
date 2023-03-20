@@ -1,3 +1,12 @@
+#include <stdio.h>
+
+/**
+ * main - entry point
+ * print all possible combinations of two numbers
+ *
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
 	int d = '0';
